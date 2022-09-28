@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79968845-C170-45B7-AEFC-0D5BFA3DD64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeChat", "WeChat", "{7B4B397B-5C6A-458F-8122-D56F78E69DDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.WeChat.Android", "src\WeChat\MauiBinding.WeChat.Android\MauiBinding.WeChat.Android.csproj", "{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B4B397B-5C6A-458F-8122-D56F78E69DDC} = {79968845-C170-45B7-AEFC-0D5BFA3DD64B}
+		{7CBEDF77-DDFC-4FE8-88F3-34588BE5424D} = {7B4B397B-5C6A-458F-8122-D56F78E69DDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
+	EndGlobalSection
+EndGlobal
