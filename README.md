@@ -10,7 +10,7 @@
 
 ## Ask for help
 
-If you need my help creating a binding library, please open an issue.
+If you need my help creating a binding library, please [open an issue](https://github.com/realZhangChi/MauiBinding/issues/new).
 
 ## Support the MauiBinding
 
