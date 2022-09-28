@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <PackageId>Chi.$(AssemblyName)</PackageId>
+    <Title>Chi.$(AssemblyName)</Title>
+    <Authors>ZhangChi</Authors>
+    <Version>0.0.1</Version>
+    <Description>Maui binding library for third-party vendor mobile SDKs.</Description>
+    <Copyright>Copyright (c) ZhangChi(https://github.com/realZhangChi)</Copyright>
+    <PackageProjectUrl>https://github.com/realZhangChi/MauiBinding</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/realZhangChi/MauiBinding</RepositoryUrl>
+  </PropertyGroup>
+</Project>
