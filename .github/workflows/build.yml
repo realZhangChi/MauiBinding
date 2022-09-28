@@ -17,6 +17,13 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "6.0.x"
+          
+      - name: install workload
+        shell: pwsh
+        run: |
+          dotnet workload install maui
+          dotnet workload install android
+          dotnet workload install ios
 
       - name: maui-check
         shell: pwsh
