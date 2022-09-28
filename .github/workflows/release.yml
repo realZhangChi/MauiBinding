@@ -40,4 +40,4 @@ jobs:
         env:
           NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
         shell: pwsh
-        run: ./script/push.ps1 "$env:NUGET_API_KEY"
+        run: ./scripts/push.ps1 "$env:NUGET_API_KEY"
