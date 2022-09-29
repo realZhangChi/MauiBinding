@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.AMap.Lite.Andro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.AMap.Navi.Android", "src\AMap\MauiBinding.AMap.Navi.Android\MauiBinding.AMap.Navi.Android.csproj", "{66501B6A-6032-4F6E-8A82-54BA978D3ADD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.AMap.Location.Android", "src\AMap\MauiBinding.AMap.Location.Android\MauiBinding.AMap.Location.Android.csproj", "{46C3F324-0B95-435A-8465-BD093E0E5E42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.AMap.Track.Android", "src\AMap\MauiBinding.AMap.Track.Android\MauiBinding.AMap.Track.Android.csproj", "{14034089-17AB-493E-B73D-0A1E60BD9DC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{66501B6A-6032-4F6E-8A82-54BA978D3ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66501B6A-6032-4F6E-8A82-54BA978D3ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66501B6A-6032-4F6E-8A82-54BA978D3ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C3F324-0B95-435A-8465-BD093E0E5E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C3F324-0B95-435A-8465-BD093E0E5E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C3F324-0B95-435A-8465-BD093E0E5E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C3F324-0B95-435A-8465-BD093E0E5E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14034089-17AB-493E-B73D-0A1E60BD9DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14034089-17AB-493E-B73D-0A1E60BD9DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14034089-17AB-493E-B73D-0A1E60BD9DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14034089-17AB-493E-B73D-0A1E60BD9DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{DCACD572-96D4-4000-94AE-9B80B87D8D74} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
 		{3652DCEE-11DA-47EB-9C5F-F46091103960} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
 		{66501B6A-6032-4F6E-8A82-54BA978D3ADD} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
+		{46C3F324-0B95-435A-8465-BD093E0E5E42} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
+		{14034089-17AB-493E-B73D-0A1E60BD9DC4} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
