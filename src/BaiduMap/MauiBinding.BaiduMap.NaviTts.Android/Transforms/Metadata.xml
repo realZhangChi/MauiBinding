@@ -1,0 +1,7 @@
+﻿<metadata>
+
+	<attr path="/api/package[@name='com.baidu.tts.emstatistics']/class[@name='TtsStatsUpload']/field[@name='ttsStatsUpload']" name="managedName">TtsStatsUpload_</attr>
+	<attr path="/api/package[@name='com.baidu.tts.client.model']/class[@name='RecordData.InsertData']/method[@name='call' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+	<remove-node path="/api/package[@name='com.baidu.tts.aop']/interface[@name='IProxyFactory']/method[@name='createProxied' and count(parameter)=0]" />
+</metadata>
