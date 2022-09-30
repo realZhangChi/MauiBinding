@@ -1,0 +1,5 @@
+﻿<metadata>
+
+	<attr path="/api/package[@name='com.baidu.mapapi.search.poi']/interface[@name='OnGetPoiSearchResultListener']/method[@name='onGetPoiDetailResult' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.search.poi.PoiDetailSearchResult']]" name="managedName">OnGetPoiDetailSearchResult</attr>
+
+</metadata>

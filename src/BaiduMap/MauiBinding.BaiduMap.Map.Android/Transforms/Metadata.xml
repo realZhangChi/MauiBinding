@@ -1,15 +1,18 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
-  <remove-node path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.onMapGestureListener']" />
-  <remove-node path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']" />
-  <remove-node path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']" />
 
+	<attr path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapRenderModeChange' and count(parameter)=1 and parameter[1][@type='int']]" name="argsType">NaviMapRenderModeChangeEventArgs</attr>
+	<attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeFinish' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.map.MapStatus']]" name="argsType">MapStatusStatusChangeFinishEventArgs</attr>
+	<attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeFinish' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.map.MapStatus']]" name="managedName">OnMapStatusStatusChangeFinish</attr>
+	<attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.onMapGestureListener']/method[@name='onMapStatusChangeFinish' and count(parameter)=1 and parameter[1][@type='com.baidu.mapapi.map.MapStatus']]" name="argsType">MapGestureStatusChangeFinishEventArgs</attr>
+	<attr path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeStart' and count(parameter)=2 and parameter[1][@type='com.baidu.mapapi.map.MapStatus'] and parameter[2][@type='int']]" name="managedName">OnMapStatusChangeStart_</attr>
+	<attr path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapAnimationFinish' and count(parameter)=0]" name="managedName">OnMapAnimationFinish_</attr>
+	<attr path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapRenderModeChange' and count(parameter)=1 and parameter[1][@type='int']]" name="managedName">OnMapRenderModeChange_</attr>
 
-  
+	<add-node path="/api/package[@name='com.baidu.platform.comapi.map']/class[@name='ItemizedOverlay']">
+		<method name="Compare" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+			<parameter name="p0" type="java.lang.Object" />
+			<parameter name="p1" type="java.lang.Object" />
+		</method>
+	</add-node>
+
 </metadata>

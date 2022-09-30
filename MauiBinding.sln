@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaiduMap", "BaiduMap", "{49
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.BaiduMap.Map.Android", "src\BaiduMap\MauiBinding.BaiduMap.Map.Android\MauiBinding.BaiduMap.Map.Android.csproj", "{7A580DE2-4431-45D5-B1C1-D4D9AADC05ED}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.BaiduMap.Search.Android", "src\BaiduMap\MauiBinding.BaiduMap.Search.Android\MauiBinding.BaiduMap.Search.Android.csproj", "{38198E71-ECB2-4982-9B17-875C35DD6B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{7A580DE2-4431-45D5-B1C1-D4D9AADC05ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A580DE2-4431-45D5-B1C1-D4D9AADC05ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A580DE2-4431-45D5-B1C1-D4D9AADC05ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38198E71-ECB2-4982-9B17-875C35DD6B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38198E71-ECB2-4982-9B17-875C35DD6B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38198E71-ECB2-4982-9B17-875C35DD6B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38198E71-ECB2-4982-9B17-875C35DD6B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{14034089-17AB-493E-B73D-0A1E60BD9DC4} = {C653E986-E8DB-4690-9CD1-0FDB9B151DD7}
 		{490CDFF3-A374-479B-BFBB-947EBFE799C3} = {79968845-C170-45B7-AEFC-0D5BFA3DD64B}
 		{7A580DE2-4431-45D5-B1C1-D4D9AADC05ED} = {490CDFF3-A374-479B-BFBB-947EBFE799C3}
+		{38198E71-ECB2-4982-9B17-875C35DD6B8D} = {490CDFF3-A374-479B-BFBB-947EBFE799C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
