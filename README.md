@@ -7,6 +7,7 @@
 - [Alipay](https://github.com/realZhangChi/MauiBinding/tree/main/src/AliPay)
 - [AMap](https://github.com/realZhangChi/MauiBinding/tree/main/src/AMap)
 - [BaiduMap](https://github.com/realZhangChi/MauiBinding/tree/main/src/BaiduMap)
+- [EasyFloat](https://github.com/realZhangChi/MauiBinding/tree/main/src/EsayFloat)
 - [WeChat](https://github.com/realZhangChi/MauiBinding/tree/main/src/WeChat)
 
 ## Ask for help
