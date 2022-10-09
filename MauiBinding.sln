@@ -47,6 +47,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.BaiduMap.MapAll
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.BaiduMap.NaviTts.Android", "src\BaiduMap\MauiBinding.BaiduMap.NaviTts.Android\MauiBinding.BaiduMap.NaviTts.Android.csproj", "{B719D7B2-72B8-43A1-92E8-AA38AF9CCDE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EasyFloat", "EasyFloat", "{D690A98D-BBE6-42A5-93D7-F9538357C5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.EasyFloat.Android", "src\EsayFloat\MauiBinding.EasyFloat.Android\MauiBinding.EasyFloat.Android.csproj", "{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +125,10 @@ Global
 		{B719D7B2-72B8-43A1-92E8-AA38AF9CCDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B719D7B2-72B8-43A1-92E8-AA38AF9CCDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B719D7B2-72B8-43A1-92E8-AA38AF9CCDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,8 @@ Global
 		{18043017-07D0-4731-A085-50669C1EE1C5} = {490CDFF3-A374-479B-BFBB-947EBFE799C3}
 		{CF3B016A-EF7D-4E93-978F-C07D7A49A5E9} = {490CDFF3-A374-479B-BFBB-947EBFE799C3}
 		{B719D7B2-72B8-43A1-92E8-AA38AF9CCDE2} = {490CDFF3-A374-479B-BFBB-947EBFE799C3}
+		{D690A98D-BBE6-42A5-93D7-F9538357C5B8} = {79968845-C170-45B7-AEFC-0D5BFA3DD64B}
+		{BEB3928D-1E18-42F9-9A42-3A3EFAF5F157} = {D690A98D-BBE6-42A5-93D7-F9538357C5B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
