@@ -6,7 +6,7 @@ Set-Location ./packages
 
 Get-ChildItem ./*.nupkg -recurse | ForEach-Object -Process {
 	if ($_ -is [System.IO.FileInfo]) {
-		dotnet nuget push $_.Name -s https://api.nuget.org/v3/index.json --api-key "$apiKey"
+		dotnet nuget push $_.Name -s https://api.nuget.org/v3/index.json --api-key "$apiKey" --skip-duplicate
 	}
 }
 
