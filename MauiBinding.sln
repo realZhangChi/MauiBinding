@@ -53,11 +53,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.EasyFloat.Andro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ezviz", "Ezviz", "{26CB259E-A730-4090-AC51-DA7BD789C058}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.Ezviz.SDK", "src\Ezviz\MauiBinding.Android.Ezviz.SDK\MauiBinding.Android.Ezviz.SDK.csproj", "{6CDBC782-60A5-4820-AFD8-CE5FC6ADFD8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.Ezviz.SDK", "src\Ezviz\MauiBinding.Android.Ezviz.SDK\MauiBinding.Android.Ezviz.SDK.csproj", "{6CDBC782-60A5-4820-AFD8-CE5FC6ADFD8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.Ezviz.VideoTalk", "src\Ezviz\MauiBinding.Android.Ezviz.VideoTalk\MauiBinding.Android.Ezviz.VideoTalk.csproj", "{8D0B51FF-DC63-4BD9-B0B0-62645727781B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.Ezviz.VideoTalk", "src\Ezviz\MauiBinding.Android.Ezviz.VideoTalk\MauiBinding.Android.Ezviz.VideoTalk.csproj", "{8D0B51FF-DC63-4BD9-B0B0-62645727781B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.Ezviz.StreamCtrl", "src\Ezviz\MauiBinding.Android.Ezviz.StreamCtrl\MauiBinding.Android.Ezviz.StreamCtrl.csproj", "{3D558305-8EA4-4528-8BE8-7311D21B6441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.Ezviz.StreamCtrl", "src\Ezviz\MauiBinding.Android.Ezviz.StreamCtrl\MauiBinding.Android.Ezviz.StreamCtrl.csproj", "{3D558305-8EA4-4528-8BE8-7311D21B6441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToastUtils", "ToastUtils", "{67C97949-B28B-4138-AFDA-AE057760F38E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.ToastUtils", "src\ToastUtils\MauiBinding.Android.ToastUtils\MauiBinding.Android.ToastUtils.csproj", "{4F863110-21F5-4822-888A-0274B50CF023}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +153,10 @@ Global
 		{3D558305-8EA4-4528-8BE8-7311D21B6441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D558305-8EA4-4528-8BE8-7311D21B6441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D558305-8EA4-4528-8BE8-7311D21B6441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F863110-21F5-4822-888A-0274B50CF023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F863110-21F5-4822-888A-0274B50CF023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F863110-21F5-4822-888A-0274B50CF023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F863110-21F5-4822-888A-0274B50CF023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,8 @@ Global
 		{6CDBC782-60A5-4820-AFD8-CE5FC6ADFD8D} = {26CB259E-A730-4090-AC51-DA7BD789C058}
 		{8D0B51FF-DC63-4BD9-B0B0-62645727781B} = {26CB259E-A730-4090-AC51-DA7BD789C058}
 		{3D558305-8EA4-4528-8BE8-7311D21B6441} = {26CB259E-A730-4090-AC51-DA7BD789C058}
+		{67C97949-B28B-4138-AFDA-AE057760F38E} = {79968845-C170-45B7-AEFC-0D5BFA3DD64B}
+		{4F863110-21F5-4822-888A-0274B50CF023} = {67C97949-B28B-4138-AFDA-AE057760F38E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
