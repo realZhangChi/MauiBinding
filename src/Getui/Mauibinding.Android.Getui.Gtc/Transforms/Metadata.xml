@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.getui.gtc.base.crypt']/class[@name='CryptTools']/method[@name='decrypt' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='javax.crypto.SecretKey'] and parameter[3][@type='javax.crypto.spec.IvParameterSpec'] and parameter[4][@type='java.io.OutputStream']]"
+        name="managedName">Decrypt_OutputStream</attr>
+  <attr path="/api/package[@name='com.getui.gtc.base.crypt']/class[@name='CryptTools']/method[@name='decrypt' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='javax.crypto.SecretKey'] and parameter[3][@type='javax.crypto.spec.IvParameterSpec'] and parameter[4][@type='java.io.InputStream']]"
+        name="managedName">Decrypt_InputStream</attr>
+  <attr path="/api/package[@name='com.getui.gtc.base.crypt']/class[@name='CryptTools']/method[@name='encrypt' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='javax.crypto.SecretKey'] and parameter[3][@type='javax.crypto.spec.IvParameterSpec'] and parameter[4][@type='java.io.OutputStream']]"
+        name="managedName">Encrypt_OutputStream</attr>
+  <attr path="/api/package[@name='com.getui.gtc.base.crypt']/class[@name='CryptTools']/method[@name='encrypt' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='javax.crypto.SecretKey'] and parameter[3][@type='javax.crypto.spec.IvParameterSpec'] and parameter[4][@type='java.io.InputStream']]"
+        name="managedName">Encrypt_InputStream</attr>
+</metadata>
