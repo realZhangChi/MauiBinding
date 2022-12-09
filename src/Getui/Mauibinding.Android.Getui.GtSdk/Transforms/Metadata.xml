@@ -6,4 +6,20 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='BridgeMessageSite']/method[@name='onArrived' and count(parameter)=2 and parameter[1][@type='org.json.JSONObject'] and parameter[2][@type='com.igexin.sdk.router.boatman.receive.IBoatResult&lt;org.json.JSONObject&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='BridgeMessageSite']/method[@name='onArrived' and count(parameter)=2 and parameter[1][@type='org.json.JSONObject'] and parameter[2][@type='com.igexin.sdk.router.boatman.receive.IBoatResult&lt;org.json.JSONObject&gt;']]"
+        name="managedOverride">override</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='BridgeMessageSite']/method[@name='onArrived' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='BridgeMessageSite']/method[@name='onArrived' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]"
+        name="managedOverride">override</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='InitSite']/method[@name='onArrived' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='InitSite']/method[@name='onArrived' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]"
+        name="managedOverride">override</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='InitSite']/method[@name='onArrived' and count(parameter)=2 and parameter[1][@type='org.json.JSONObject'] and parameter[2][@type='com.igexin.sdk.router.boatman.receive.IBoatResult&lt;org.json.JSONObject&gt;']]/parameter[1]"
+        name="managedType">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.igexin.sdk.router.site']/class[@name='InitSite']/method[@name='onArrived' and count(parameter)=2 and parameter[1][@type='org.json.JSONObject'] and parameter[2][@type='com.igexin.sdk.router.boatman.receive.IBoatResult&lt;org.json.JSONObject&gt;']]"
+        name="managedOverride">override</attr>
 </metadata>
