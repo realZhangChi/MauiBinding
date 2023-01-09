@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=io/github/ezviz-open/streamctrl/1.2.6/streamctrl-1.2.6.aar
+streamctrl.aar

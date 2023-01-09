@@ -10,6 +10,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="videotalk-1.2.6.aar" />
+	  <None Remove="videotalk.aar" />
 	</ItemGroup>
 </Project>

@@ -10,6 +10,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="ezviz-sdk-4.20.1.1.aar" />
+	  <None Remove="ezviz-sdk.aar" />
 	</ItemGroup>
 </Project>

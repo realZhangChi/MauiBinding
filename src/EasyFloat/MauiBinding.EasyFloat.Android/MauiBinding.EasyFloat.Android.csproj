@@ -9,6 +9,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="EasyFloat-2.0.4.aar" />
+    <None Remove="EasyFloat.aar" />
   </ItemGroup>
 </Project>

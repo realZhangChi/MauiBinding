@@ -7,3 +7,10 @@
 **/obj
 
 /packages
+/src/AliPay/**/*.aar
+/src/BaiduMap/**/*.aar
+/src/EasyFloat/**/*.aar
+/src/Ezviz/**/*.aar
+/src/Getui/**/*.aar
+/src/ToastUtils/**/*.aar
+/src/WeChat/**/*.aar

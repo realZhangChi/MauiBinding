@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<Import Project="..\..\..\common.props" />
 
@@ -9,6 +9,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="ToastUtils-11.2.aar" />
+    <None Remove="ToastUtils.aar" />
   </ItemGroup>
 </Project>

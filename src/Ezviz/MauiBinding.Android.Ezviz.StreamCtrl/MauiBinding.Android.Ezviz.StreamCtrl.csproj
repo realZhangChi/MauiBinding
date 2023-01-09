@@ -10,6 +10,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="streamctrl-1.2.6.aar" />
+	  <None Remove="streamctrl.aar" />
 	</ItemGroup>
 </Project>

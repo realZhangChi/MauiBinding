@@ -9,4 +9,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="BaiduMapSDK_Map.aar" />
+	</ItemGroup>
+
 </Project>

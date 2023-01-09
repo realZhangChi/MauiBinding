@@ -8,4 +8,8 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
+	
+	<ItemGroup>
+	  <None Remove="BaiduMapSDK_Map-Navi.aar" />
+	</ItemGroup>
 </Project>

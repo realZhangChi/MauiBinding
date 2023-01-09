@@ -10,6 +10,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="BaiduMapSDK_Location_All-9.3.5.aar" />
+	  <None Remove="BaiduMapSDK_Location_All.aar" />
 	</ItemGroup>
 </Project>

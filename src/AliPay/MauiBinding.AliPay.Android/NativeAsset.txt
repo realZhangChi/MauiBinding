@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=com/alipay/sdk/alipaysdk-android/15.8.11/alipaysdk-android-15.8.11.aar
+alipaysdk-android.aar

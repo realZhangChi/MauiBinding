@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=io/github/ezviz-open/ezviz-sdk/5.0.3/ezviz-sdk-5.0.3.aar
+ezviz-sdk.aar

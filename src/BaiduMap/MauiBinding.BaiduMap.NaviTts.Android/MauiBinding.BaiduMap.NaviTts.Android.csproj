@@ -9,4 +9,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Remove="NaviTts.aar" />
+	</ItemGroup>
+
 </Project>
