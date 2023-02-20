@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="wechat-sdk-android.aar" />
+	</ItemGroup>
 </Project>

@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=com/baidu/lbsyun/BaiduMapSDK_Map-AllNavi/7.5.4/BaiduMapSDK_Map-AllNavi-7.5.4.aar
+BaiduMapSDK_Map-AllNavi.aar

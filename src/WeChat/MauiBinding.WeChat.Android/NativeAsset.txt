@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=com/tencent/mm/opensdk/wechat-sdk-android/6.8.20/wechat-sdk-android-6.8.20.aar
+wechat-sdk-android.aar

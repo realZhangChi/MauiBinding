@@ -1,0 +1,2 @@
+http://mvn.getui.com/nexus/content/repositories/releases/com/getui/gtc/3.2.1.0/gtc-3.2.1.0.aar
+gtc.aar

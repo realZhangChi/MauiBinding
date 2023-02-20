@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=com/baidu/lbsyun/BaiduMapSDK_Location/9.3.7/BaiduMapSDK_Location-9.3.7.aar
+BaiduMapSDK_Location.aar

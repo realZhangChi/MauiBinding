@@ -1,0 +1,2 @@
+https://search.maven.org/remotecontent?filepath=io/github/ezviz-open/videotalk/1.2.6/videotalk-1.2.6.aar
+videotalk.aar

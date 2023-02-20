@@ -1,0 +1,16 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[starts-with(@name, 'com.sun.jna')]"></remove-node>
+	<remove-node path="/api/package[@name='com.videogo.openapi.model']/class[@name='ApiResponse']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"></remove-node>
+	<attr path="/api/package[@name='com.videogo.device']/class[@name='DeviceInfoEx']/method[@name='getUpgradeStatus' and count(parameter)=0]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.videogo.stream']/class[@name='EZPlayback']/method[@name='start' and count(parameter)=0]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.videogo.stream']/class[@name='EZRealPlay']/method[@name='start' and count(parameter)=0]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.videogo.openapi.bean.resp']/class[@name='CloudPartInfoFile']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.videogo.openapi.bean.resp.CloudPartInfoFile']]/parameter[1]" name="type">java.lang.Object</attr>
+
+</metadata>
