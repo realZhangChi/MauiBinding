@@ -1,0 +1,19 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[@name='com.huawei.cloudlink.sdk.threadpool.runner']/class[@name='CloudLinkThreadRunner.Task']/field[@name='mCallable']" />
+	<remove-node path="/api/package[@name='com.huawei.hwmbiz']/class[@name='Login']" />
+	<remove-node path="/api/package[@name='hwmhttp.wrapper.param']/interface[@name='Param']" />
+	<remove-node path="/api/package[@name='com.huawei.mmrallplatform.audiorouter']/class[@name='HWAudioManager']/field[@name='audioDirector']" />
+	<remove-node path="/api/package[@name='com.huawei.hwm.logger.util']/class[@name='Dumper']" />
+
+	<attr path="/api/package[@name='com.huawei.hwmbiz.eventbus']/class[@name='AccountState']/field[@name='ACCOUNT_STATE']" name="managedName">AccountState_</attr>
+	<attr path="/api/package[@name='com.huawei.hwmconf.sdk.util']/class[@name='ParticipantListComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmsdk.model.result.AttendeeInfo'] and parameter[2][@type='com.huawei.hwmsdk.model.result.AttendeeInfo']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.huawei.hwmconf.sdk.util']/class[@name='ParticipantListComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmsdk.model.result.AttendeeInfo'] and parameter[2][@type='com.huawei.hwmsdk.model.result.AttendeeInfo']]/parameter[2]" name="managedType">Java.Lang.Object</attr>
+</metadata>
