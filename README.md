@@ -10,6 +10,7 @@
 - [EasyFloat](https://github.com/realZhangChi/MauiBinding/tree/main/src/EsayFloat)
 - [Ezviz(萤石)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Ezviz)
 - [Getui(个推)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Getui)
+- [Huawei Cloud Meeting(华为云会议)](https://github.com/realZhangChi/MauiBinding/tree/main/src/HuaweiCloudMeeting)
 - [Jiguang(极光)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Jiguang)
 - [ToastUtils](https://github.com/realZhangChi/MauiBinding/tree/main/src/ToastUtils)
 - [WeChat](https://github.com/realZhangChi/MauiBinding/tree/main/src/WeChat)
