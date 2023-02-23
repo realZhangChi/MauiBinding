@@ -12,5 +12,5 @@
 /src/EasyFloat/**/*.aar
 /src/Ezviz/**/*.aar
 /src/Getui/**/*.aar
-/src/ToastUtils/**/*.aar
+/src/Toaster/**/*.aar
 /src/WeChat/**/*.aar

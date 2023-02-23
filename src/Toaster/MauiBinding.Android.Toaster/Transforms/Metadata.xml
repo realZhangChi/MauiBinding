@@ -11,14 +11,14 @@
   <remove-node path="/api/package[@name='com.hjq.toast.config']/interface[@name='IToast']/method[@name='setDuration' and count(parameter)=1 and parameter[1][@type='int']]" />
   <remove-node path="/api/package[@name='com.hjq.toast.config']/interface[@name='IToast']/method[@name='getGravity' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.hjq.toast.config']/interface[@name='IToast']/method[@name='setGravity' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />
-  <attr path="/api/package[@name='com.hjq.toast']/class[@name='ToastUtils']/method[@name='debugShow' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.hjq.toast']/class[@name='Toaster']/method[@name='debugShow' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
         name="managedName">DebugShowObject</attr>
-  <attr path="/api/package[@name='com.hjq.toast']/class[@name='ToastUtils']/method[@name='delayedShow' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='long']]"
+  <attr path="/api/package[@name='com.hjq.toast']/class[@name='Toaster']/method[@name='delayedShow' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='long']]"
         name="managedName">DelayedShowObject</attr>
-  <attr path="/api/package[@name='com.hjq.toast']/class[@name='ToastUtils']/method[@name='showLong' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.hjq.toast']/class[@name='Toaster']/method[@name='showLong' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
         name="managedName">ShowLongObject</attr>
-  <attr path="/api/package[@name='com.hjq.toast']/class[@name='ToastUtils']/method[@name='show' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.hjq.toast']/class[@name='Toaster']/method[@name='show' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
         name="managedName">ShowObject</attr>
-  <attr path="/api/package[@name='com.hjq.toast']/class[@name='ToastUtils']/method[@name='showShort' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+  <attr path="/api/package[@name='com.hjq.toast']/class[@name='Toaster']/method[@name='showShort' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
         name="managedName">ShowShortObject</attr>
 </metadata>

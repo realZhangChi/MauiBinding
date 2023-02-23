@@ -9,6 +9,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="ToastUtils.aar" />
+    <None Remove="Toaster.aar" />
   </ItemGroup>
 </Project>

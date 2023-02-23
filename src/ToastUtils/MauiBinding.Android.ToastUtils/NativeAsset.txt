@@ -1,2 +1,0 @@
-https://jitpack.io/com/github/getActivity/ToastUtils/11.2/ToastUtils-11.2.aar
-ToastUtils.aar
