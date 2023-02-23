@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\common.props" />
+
+	<PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="HWMCLink-release.aar" />
+	  <None Remove="HWMFoundation-release.aar" />
+	  <None Remove="HWMMobileCommonUI-release.aar" />
+	  <None Remove="HWMMobileConfUI-release.aar" />
+	  <None Remove="HWMNativeSdk-release.aar" />
+	  <None Remove="HWMPermission-release.aar" />
+	  <None Remove="HWMUiSdk-release.aar" />
+	  <None Remove="imsdk-release.aar" />
+	</ItemGroup>
+</Project>

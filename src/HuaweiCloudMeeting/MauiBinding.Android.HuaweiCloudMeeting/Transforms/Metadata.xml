@@ -1,0 +1,92 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<attr path="/api/package[@name='com.huawei.contact.model']/class[@name='ContactModel']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.huawei.contact.model.ContactModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache.model']/class[@name='CorporateContactInfoModel']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.contact.cache.model.CorporateContactInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache.model']/class[@name='ExternalContactInfoModel']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.contact.cache.model.ExternalContactInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	
+	<attr path="/api/package[@name='com.huawei.hwmconf.presentation.util']/class[@name='CountryComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmconf.presentation.model.CountrySortModel'] and parameter[2][@type='com.huawei.hwmconf.presentation.model.CountrySortModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmconf.presentation.util']/class[@name='CountryComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmconf.presentation.model.CountrySortModel'] and parameter[2][@type='com.huawei.hwmconf.presentation.model.CountrySortModel']]/parameter[2]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmconf.sdk.util']/class[@name='ParticipantListComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmsdk.model.result.AttendeeInfo'] and parameter[2][@type='com.huawei.hwmsdk.model.result.AttendeeInfo']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmconf.sdk.util']/class[@name='ParticipantListComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmsdk.model.result.AttendeeInfo'] and parameter[2][@type='com.huawei.hwmsdk.model.result.AttendeeInfo']]/parameter[2]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	
+	<attr path="/api/package[@name='com.huawei.hwmbiz.login.cache']/class[@name='CtdConfigCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.setting.cache.model.CtdConfigModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.login.cache']/class[@name='LoginInfoCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.login.model.LoginInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.login.cache']/class[@name='LoginSettingCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.login.model.LoginSetting']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.setting.cache']/class[@name='PrivateConfigCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.setting.cache.model.PrivateConfigModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache']/class[@name='DepartmentTreeInfoCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.contact.cache.model.DepartmentTreeInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache']/class[@name='ExternalContactsCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.huawei.hwmbiz.contact.cache.model.ExternalContactInfoModel&gt;']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache']/class[@name='MyHeadportraitCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.contact.cache.model.HeadPortraitInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.contact.cache']/class[@name='MyInfoCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.contact.cache.model.MyInfoModel']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.setting.cache']/class[@name='USGConfigCache']/method[@name='beforeSetNewCacheData' and count(parameter)=1 and parameter[1][@type='com.huawei.hwmbiz.login.model.config.Configuration']]/parameter[1]"
+		  name="managedType">
+		Java.Lang.Object
+	</attr>
+				
+	<attr path="/api/package[@name='com.huawei.hwmbiz.eventbus']/class[@name='AccountState']/field[@name='ACCOUNT_STATE']"
+		  name="managedName">
+		AccountState_
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmbiz.eventbus']/class[@name='AccountState']/field[@name='ACCOUNT_STATE']"
+		  name="managedName">
+		AccountState_
+	</attr>
+	<attr path="/api/package[@name='com.huawei.hwmchat.view.widget']/class[@name='ChatInputAndSendView']"
+		  name="managedName">
+		ChatInputAndSendView_
+	</attr>
+
+	<remove-node path="/api/package[@name='hwmhttp.wrapper.param']/interface[@name='Param']" />
+	
+</metadata>

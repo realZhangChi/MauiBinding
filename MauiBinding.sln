@@ -93,6 +93,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.HuaweiC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.Toaster", "src\Toaster\MauiBinding.Android.Toaster\MauiBinding.Android.Toaster.csproj", "{E3380BF5-276A-423C-86B6-F249966A4DAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.HuaweiCloudMeeting", "src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.csproj", "{139DA215-E828-4B5A-BF51-9942E487529B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{E3380BF5-276A-423C-86B6-F249966A4DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3380BF5-276A-423C-86B6-F249966A4DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3380BF5-276A-423C-86B6-F249966A4DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139DA215-E828-4B5A-BF51-9942E487529B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139DA215-E828-4B5A-BF51-9942E487529B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139DA215-E828-4B5A-BF51-9942E487529B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139DA215-E828-4B5A-BF51-9942E487529B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,6 +290,7 @@ Global
 		{607D71D6-2D14-4AD0-B84C-B2CF06F89D93} = {CA072166-FDD6-4BD7-80D3-E5854A0984EC}
 		{D33D2BE2-02B0-4925-8CD0-58C6A5B3B09A} = {CA072166-FDD6-4BD7-80D3-E5854A0984EC}
 		{E3380BF5-276A-423C-86B6-F249966A4DAF} = {67C97949-B28B-4138-AFDA-AE057760F38E}
+		{139DA215-E828-4B5A-BF51-9942E487529B} = {CA072166-FDD6-4BD7-80D3-E5854A0984EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
