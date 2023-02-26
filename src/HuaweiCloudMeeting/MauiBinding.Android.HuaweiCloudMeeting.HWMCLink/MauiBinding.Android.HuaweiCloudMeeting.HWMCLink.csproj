@@ -12,4 +12,8 @@
 	<ItemGroup>
 	  <None Remove="HWMCLink-release.aar" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\MauiBinding.Android.HuaweiCloudMeeting.HWMNativeSdk\MauiBinding.Android.HuaweiCloudMeeting.HWMNativeSdk.csproj" />
+	</ItemGroup>
 </Project>

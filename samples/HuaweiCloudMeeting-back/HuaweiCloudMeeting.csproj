@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-android33.0</TargetFrameworks>
+		<!--<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>-->
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
+		<OutputType>Exe</OutputType>
+		<RootNamespace>HuaweiCloudMeeting</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>HuaweiCloudMeeting</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.huaweicloudmeeting</ApplicationId>
+		<ApplicationIdGuid>b994657b-046a-4d6b-9e4f-08c857c4b73c</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">11.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">23.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+
+		<!--<XamarinAndroidSupportSkipVerifyVersions>true</XamarinAndroidSupportSkipVerifyVersions>-->
+
+		<!--<_AndroidApiLevel>33</_AndroidApiLevel>
+		<AndroidSdkBuildToolsVersion>32.0.0</AndroidSdkBuildToolsVersion>
+		<MSBuildProjectExtensionsPath>obj</MSBuildProjectExtensionsPath>-->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="GoogleGson" Version="2.10.1.1" />
+		<PackageReference Include="Square.OkHttp3" Version="4.10.0.1" />
+		<PackageReference Include="Xamarin.Android.ReactiveX.RxJava" Version="2.2.21.9" />
+		<PackageReference Include="Xamarin.Android.ReactiveX.RxJava3.RxAndroid" Version="3.0.2.1" />
+		<!--<PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />-->
+		<PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="28.0.0.3" />
+		<PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.5.0.2" />
+		<!--<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />-->
+		<PackageReference Include="Xamarin.AndroidX.CardView" Version="1.0.0.18" />
+		<PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.3" />
+		<PackageReference Include="Xamarin.AndroidX.Legacy.Support.V13" Version="1.0.0.15" />
+		<PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0.16" />
+		<PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.9" />
+		<PackageReference Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.11" />
+		<PackageReference Include="Xamarin.AndroidX.VectorDrawable" Version="1.1.0.16" />
+		<PackageReference Include="Xamarin.AndroidX.VersionedParcelable" Version="1.1.1.16" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!--<ProjectReference Include="..\..\src\AspectJ\MauiBinding.Android.AspectJ.AspectJRT\MauiBinding.Android.AspectJ.AspectJRT.csproj" />-->
+		<ProjectReference Include="..\..\src\GreenRobot\MauiBinding.Android.GreenRobot.EventBus\MauiBinding.Android.GreenRobot.EventBus.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMNativeSdk\MauiBinding.Android.HuaweiCloudMeeting.HWMNativeSdk.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMCLink\MauiBinding.Android.HuaweiCloudMeeting.HWMCLink.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMMobileCommonUI\MauiBinding.Android.HuaweiCloudMeeting.HWMMobileCommonUI.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\HWMMobileConfUI\MauiBinding.Android.HuaweiCloudMeeting.HWMMobileConfUI.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.IM\MauiBinding.Android.HuaweiCloudMeeting.IM.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMPermission\MauiBinding.Android.HuaweiCloudMeeting.HWMPermission.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMFoundation\MauiBinding.Android.HuaweiCloudMeeting.HWMFoundation.csproj" />
+		<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.HWMUi\MauiBinding.Android.HuaweiCloudMeeting.HWMUi.csproj" />
+		<!--<ProjectReference Include="..\..\src\HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting\MauiBinding.Android.HuaweiCloudMeeting.csproj" />-->
+	</ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties XamarinHotReloadDebuggerTimeoutExceptionHuaweiCloudMeetingHideInfoBar="True" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>

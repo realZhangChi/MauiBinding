@@ -11,6 +11,9 @@
 	<remove-node path="/api/package[@name='com.huawei.hwmconf.presentation.adapter']/class[@name='TimeZoneAdapter']" />
 	<remove-node path="/api/package[@name='com.huawei.hwmchat.view.widget']/interface[@name='ChatInputAndSendView.ChatInputAndSendViewListener']" />
 
+	<remove-node path="/api/package[@name='com.huawei.hwmconf.presentation.dependency.menu.v2']/interface[@name='OnMenuItemClickListener']" />
+	<remove-node path="/api/package[@name='com.huawei.hwmconf.presentation.view.component']/interface[@name='ConfTypeSetting.Listener']" />
+
 	<attr path="/api/package[@name='com.huawei.hwmconf.presentation.util']/class[@name='CountryComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmconf.presentation.model.CountrySortModel'] and parameter[2][@type='com.huawei.hwmconf.presentation.model.CountrySortModel']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='com.huawei.hwmconf.presentation.util']/class[@name='CountryComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.huawei.hwmconf.presentation.model.CountrySortModel'] and parameter[2][@type='com.huawei.hwmconf.presentation.model.CountrySortModel']]/parameter[2]" name="managedType">Java.Lang.Object</attr>
 </metadata>
