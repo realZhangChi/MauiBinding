@@ -7,7 +7,7 @@
 - [Alipay](https://github.com/realZhangChi/MauiBinding/tree/main/src/AliPay)
 - [AMap](https://github.com/realZhangChi/MauiBinding/tree/main/src/AMap)
 - [BaiduMap](https://github.com/realZhangChi/MauiBinding/tree/main/src/BaiduMap)
-- [EasyFloat](https://github.com/realZhangChi/MauiBinding/tree/main/src/EsayFloat)
+- [EasyFloat](https://github.com/realZhangChi/MauiBinding/tree/main/src/EasyFloat)
 - [Ezviz(萤石)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Ezviz)
 - [Getui(个推)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Getui)
 - [Huawei Cloud Meeting(华为云会议)](https://github.com/realZhangChi/MauiBinding/tree/main/src/HuaweiCloudMeeting)
