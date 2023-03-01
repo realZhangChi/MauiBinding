@@ -11,4 +11,7 @@
   <ItemGroup>
     <None Remove="EasyFloat.aar" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.8.0.1" />
+  </ItemGroup>
 </Project>
