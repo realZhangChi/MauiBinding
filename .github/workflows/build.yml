@@ -25,12 +25,6 @@ jobs:
           dotnet workload install android
           dotnet workload install ios
 
-      - name: maui-check
-        shell: pwsh
-        run: |
-          & dotnet tool install -g Redth.Net.Maui.Check
-          & maui-check --ci --non-interactive --fix --skip vswin --skip xcode --skip edgewebview2 --skip androidemulator --skip DotNetWorkloadsCheckup
-
       - name: download native assets
         shell: pwsh
         run: scripts/download-assets.ps1
