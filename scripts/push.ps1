@@ -4,9 +4,9 @@ $rootPath = (Get-Item -Path "./" -Verbose).FullName
 
 Set-Location $rootPath
 
-Get-ChildItem src/**/bin/Release/*.nupkg -recurse | ForEach-Object -Process {
+Get-ChildItem src/**/*.nupkg -recurse | ForEach-Object -Process {
 	if ($_ -is [System.IO.FileInfo]) {
-		dotnet nuget push $_.Name -s https://api.nuget.org/v3/index.json --api-key "$apiKey" --skip-duplicate
+		dotnet nuget push $_.FullName -s https://api.nuget.org/v3/index.json --api-key "$apiKey" --skip-duplicate
 	}
 }
 
