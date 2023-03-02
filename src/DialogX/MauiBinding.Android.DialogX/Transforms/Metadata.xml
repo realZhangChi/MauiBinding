@@ -1,0 +1,43 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomDialog']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='CustomDialog']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='FullScreenDialog']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='MessageDialog']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='PopMenu']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='PopNotification']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='PopTip']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='WaitDialog']/method[@name='show' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.util']/class[@name='BottomMenuArrayAdapter']" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='InputDialog']/constructor[@name='InputDialog' and count(parameter)=5 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.CharSequence'] and parameter[4][@type='java.lang.CharSequence'] and parameter[5][@type='java.lang.String']]" />
+
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='InputDialog']/method[@name='show' and count(parameter)=5 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.CharSequence'] and parameter[4][@type='java.lang.CharSequence'] and parameter[5][@type='java.lang.String']]" name="managedName" >Show_</attr>
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=2 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.String[]']]" />
+	<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='InputDialog']/method[@name='show' and count(parameter)=5 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.CharSequence'] and parameter[4][@type='java.lang.CharSequence'] and parameter[5][@type='java.lang.String']]" name="managedName">Show_</attr>
+	<!--<attr path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.String[]'] and parameter[3][@type='com.kongzue.dialogx.interfaces.OnMenuItemClickListener&lt;com.kongzue.dialogx.dialogs.BottomMenu&gt;']]" name="managedName">ShowWithListener</attr>-->
+
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=2 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.util.List&lt;java.lang.CharSequence&gt;']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.CharSequence[]']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=4 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.CharSequence[]'] and parameter[4][@type='com.kongzue.dialogx.interfaces.OnMenuItemClickListener&lt;com.kongzue.dialogx.dialogs.BottomMenu&gt;']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.util.List&lt;java.lang.CharSequence&gt;']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.CharSequence'] and parameter[3][@type='java.lang.String[]']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.CharSequence[]']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.util.List&lt;java.lang.CharSequence&gt;']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.util.List&lt;java.lang.CharSequence&gt;'] and parameter[3][@type='com.kongzue.dialogx.interfaces.OnMenuItemClickListener&lt;com.kongzue.dialogx.dialogs.BottomMenu&gt;']]" />
+	<remove-node path="/api/package[@name='com.kongzue.dialogx.dialogs']/class[@name='BottomMenu']/method[@name='show' and count(parameter)=3 and parameter[1][@type='java.lang.CharSequence'] and parameter[2][@type='java.lang.String[]'] and parameter[3][@type='com.kongzue.dialogx.interfaces.OnMenuItemClickListener&lt;com.kongzue.dialogx.dialogs.BottomMenu&gt;']]" />
+
+	<attr path="/api/package[@name='com.kongzue.dialogx.util.views']/class[@name='NoArticulatedProgressView']/method[@name='setColor' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Com.Kongzue.Dialogx.Interfaces.IProgressViewInterface</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.util.views']/class[@name='ProgressView']/method[@name='setColor' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Com.Kongzue.Dialogx.Interfaces.IProgressViewInterface</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.util.views']/class[@name='NoArticulatedProgressView']/method[@name='whenShowTick' and count(parameter)=1 and parameter[1][@type='java.lang.Runnable']]" name="managedReturn">Com.Kongzue.Dialogx.Interfaces.IProgressViewInterface</attr>
+	<attr path="/api/package[@name='com.kongzue.dialogx.util.views']/class[@name='ProgressView']/method[@name='whenShowTick' and count(parameter)=1 and parameter[1][@type='java.lang.Runnable']]" name="managedReturn">Com.Kongzue.Dialogx.Interfaces.IProgressViewInterface</attr>
+
+	<!--<remove-node path="/api/package[@name='com.kongzue.dialogx.interfaces']/interface[@name='ProgressViewInterface']" />-->
+</metadata>
