@@ -95,7 +95,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.Toaster
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DialogX", "DialogX", "{C0E57AE3-F7B2-4B23-B610-585C59103E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiBinding.Android.DialogX.Interface", "src\DialogX\MauiBinding.Android.DialogX.Interface\MauiBinding.Android.DialogX.Interface.csproj", "{E6D5ED52-A2C3-4772-8E06-A6E4655A8FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.DialogX.Interface", "src\DialogX\MauiBinding.Android.DialogX.Interface\MauiBinding.Android.DialogX.Interface.csproj", "{E6D5ED52-A2C3-4772-8E06-A6E4655A8FF3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiBinding.Android.DialogX", "src\DialogX\MauiBinding.Android.DialogX\MauiBinding.Android.DialogX.csproj", "{27DFA960-C88E-45E7-A560-01A634909106}"
 EndProject
