@@ -11,7 +11,4 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MauiBinding.Android.DialogX.Interface\MauiBinding.Android.DialogX.Interface.csproj" />
-  </ItemGroup>
 </Project>
