@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: setup dotnet 6.0
+      - name: setup dotnet 7.0
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: "6.0.x"
+          dotnet-version: "7.0.x"
           
       - name: install workload
         shell: pwsh

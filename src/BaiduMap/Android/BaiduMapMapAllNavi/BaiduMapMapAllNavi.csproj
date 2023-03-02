@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>7.5.4</Version>
+		<Description>Maui binding library for BaiduMapSDK_Map-AllNavi.</Description>
+		<PackageId>$(PackageIdPrefix).Android.BaiduMap_MapAllNavi</PackageId>
+		<Title>$(PackageIdPrefix).Android.BaiduMap_MapAllNavi</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="BaiduMapSDK_Map-AllNavi.aar" />
+	</ItemGroup>
+
+</Project>

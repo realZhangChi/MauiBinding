@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>12.0</Version>
+		<Description>Maui binding library for https://github.com/getActivity/Toaster.</Description>
+		<PackageId>$(PackageIdPrefix).Android.Toaster</PackageId>
+		<Title>$(PackageIdPrefix).Android.Toaster</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Toaster.aar" />
+	</ItemGroup>
+</Project>

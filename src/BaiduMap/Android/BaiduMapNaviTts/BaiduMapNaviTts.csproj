@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>3.2.8</Version>
+		<Description>Maui binding library for NaviTts.</Description>
+		<PackageId>$(PackageIdPrefix).Android.BaiduMap_NaviTts</PackageId>
+		<Title>$(PackageIdPrefix).Android.BaiduMap_NaviTts</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="NaviTts.aar" />
+	</ItemGroup>
+
+</Project>

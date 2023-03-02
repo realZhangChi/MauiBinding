@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>9.3.0</Version>
+		<Description>Maui binding library for AMap3DMap_9.3.0_AMapNavi_9.3.0_AMapSearch_9.2.0_AMapLocation_6.1.0_20220608.</Description>
+		<PackageId>$(PackageIdPrefix).Android.AMapNavi</PackageId>
+		<Title>$(PackageIdPrefix).Android.AMapNavi</Title>
+	</PropertyGroup>
+
+</Project>

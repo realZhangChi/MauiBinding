@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>15.8.11</Version>
+		<Description>Maui binding library for com.alipay.sdk.alipaysdk-android.</Description>
+		<PackageId>$(PackageIdPrefix).Android.AliPay</PackageId>
+		<Title>$(PackageIdPrefix).Android.AliPay</Title>
+	</PropertyGroup>
+
+</Project>

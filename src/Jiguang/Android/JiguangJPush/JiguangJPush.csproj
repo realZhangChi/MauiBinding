@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>4.8.5</Version>
+		<Description>Maui binding library for Urora(极光推送 https://www.jiguang.cn/sdk-download) JPush.</Description>
+		<PackageId>$(PackageIdPrefix).Android.JiguangJPush</PackageId>
+		<Title>$(PackageIdPrefix).Android.JiguangJPush</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="jpush-4.8.5.aar" />
+	</ItemGroup>
+</Project>

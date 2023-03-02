@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>5.0.3</Version>
+		<Description>Maui binding library for ezviz-sdk.</Description>
+		<PackageId>$(PackageIdPrefix).Android.EzvizSDK</PackageId>
+		<Title>$(PackageIdPrefix).Android.EzvizSDK</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="ezviz-sdk.aar" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>6.1.0</Version>
+		<Description>Maui binding library for AMapLocation_6.1.0_20220406.</Description>
+		<PackageId>$(PackageIdPrefix).Android.AMapLocation</PackageId>
+		<Title>$(PackageIdPrefix).Android.AMapLocation</Title>
+	</PropertyGroup>
+
+</Project>

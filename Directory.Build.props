@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <PackageIdPrefix>Chi.MauiBinding</PackageIdPrefix>
+    <Authors>ZhangChi</Authors>
+    <Copyright>Copyright (c) ZhangChi(https://github.com/realZhangChi)</Copyright>
+    <PackageProjectUrl>https://github.com/realZhangChi/MauiBinding</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/realZhangChi/MauiBinding</RepositoryUrl>
+  </PropertyGroup>
+</Project>

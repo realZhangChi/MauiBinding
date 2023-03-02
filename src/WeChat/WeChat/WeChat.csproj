@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+
+	<PropertyGroup>
+		<Version>6.8.20</Version>
+		<Description>Maui binding library for com.tencent.mm.opensdk.wechat-sdk-android.</Description>
+		<PackageId>$(PackageIdPrefix).Android.WeChat</PackageId>
+		<Title>$(PackageIdPrefix).Android.WeChat</Title>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<None Remove="wechat-sdk-android.aar" />
+	</ItemGroup>
+</Project>

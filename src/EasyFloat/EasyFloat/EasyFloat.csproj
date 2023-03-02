@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>2.0.4</Version>
+		<Description>Maui binding library for https://github.com/princekin-f/EasyFloat.</Description>
+		<PackageId>$(PackageIdPrefix).Android.EasyFloat</PackageId>
+		<Title>$(PackageIdPrefix).Android.EasyFloat</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="EasyFloat.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.8.0.1" />
+	</ItemGroup>
+</Project>

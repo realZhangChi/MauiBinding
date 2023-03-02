@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>3.2.13.0</Version>
+		<Description>Maui binding library for Getui gtsdk.</Description>
+		<PackageId>$(PackageIdPrefix).Android.GetuiGtSdk</PackageId>
+		<Title>$(PackageIdPrefix).Android.GetuiGtSdk</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="gtsdk.aar" />
+	</ItemGroup>
+</Project>

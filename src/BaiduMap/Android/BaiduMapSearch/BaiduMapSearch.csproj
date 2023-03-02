@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>7.5.4</Version>
+		<Description>Maui binding library for BaiduMapSDK_Search.</Description>
+		<PackageId>$(PackageIdPrefix).Android.BaiduMap_Search</PackageId>
+		<Title>$(PackageIdPrefix).Android.BaiduMap_Search</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="BaiduMapSDK_Search.aar" />
+	</ItemGroup>
+</Project>
