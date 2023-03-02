@@ -6,7 +6,7 @@ See [alipay official document](https://opendocs.alipay.com/open/04km1h).
 
 | Binding library | Native SDK | Nuget |
 |:-| :-: | :-: |
-|Chi.MauiBinding.AliPay.Android| [alipaysdk-android-15.8.11.aar](https://search.maven.org/artifact/com.alipay.sdk/alipaysdk-android/15.8.11/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.AliPay.Android?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.AliPay.Android/ "Download Chi.MauiBinding.AliPay.Android from NuGet.org") |
+|Chi.MauiBinding.Android.AliPay| [alipaysdk-android-15.8.11.aar](https://search.maven.org/artifact/com.alipay.sdk/alipaysdk-android/15.8.11/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.AliPay?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.AliPay/ "Download Chi.MauiBinding.Android.AliPay from NuGet.org") |
 
 ## iOS
 

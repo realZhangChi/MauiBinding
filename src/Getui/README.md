@@ -6,8 +6,8 @@ See [Getui official document](https://docs.getui.com/) for details.
 
 | Binding library | Native SDK | Nuget |
 |:-| :-: | :-: |
-|Chi.Mauibinding.Android.Getui.Gtc| [gtc-3.2.1.0.aar](http://mvn.getui.com/nexus/content/repositories/releases/com/getui/gtc/3.2.1.0/gtc-3.2.1.0.aar)| [![NuGet](https://buildstats.info/nuget/Chi.Mauibinding.Android.Getui.Gtc?includePreReleases=false)](https://www.nuget.org/packages/Chi.Mauibinding.Android.Getui.Gtc/ "Download Chi.Mauibinding.Android.Getui.Gtc from NuGet.org") |
-|Chi.Mauibinding.Android.Getui.GtSdk| [gtsdk-3.2.13.0.aar](http://mvn.getui.com/nexus/content/repositories/releases/com/getui/gtsdk/3.2.13.0/gtsdk-3.2.13.0.aar)| [![NuGet](https://buildstats.info/nuget/Chi.Mauibinding.Android.Getui.GtSdk?includePreReleases=false)](https://www.nuget.org/packages/Chi.Mauibinding.Android.Getui.GtSdk/ "Download Chi.Mauibinding.Android.Getui.GtSdk from NuGet.org") |
+|Chi.Mauibinding.Android.GetuiGtc| [gtc-3.2.1.0.aar](http://mvn.getui.com/nexus/content/repositories/releases/com/getui/gtc/3.2.1.0/gtc-3.2.1.0.aar)| [![NuGet](https://buildstats.info/nuget/Chi.Mauibinding.Android.GetuiGtc?includePreReleases=false)](https://www.nuget.org/packages/Chi.Mauibinding.Android.GetuiGtc/ "Download Chi.Mauibinding.Android.GetuiGtc from NuGet.org") |
+|Chi.Mauibinding.Android.GetuiGtSdk| [gtsdk-3.2.13.0.aar](http://mvn.getui.com/nexus/content/repositories/releases/com/getui/gtsdk/3.2.13.0/gtsdk-3.2.13.0.aar)| [![NuGet](https://buildstats.info/nuget/Chi.Mauibinding.Android.GetuiGtSdk?includePreReleases=false)](https://www.nuget.org/packages/Chi.Mauibinding.Android.GetuiGtSdk/ "Download Chi.Mauibinding.Android.GetuiGtSdk from NuGet.org") |
 
 ## iOS
 

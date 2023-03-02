@@ -6,8 +6,8 @@ See [JPush official document](https://docs.jiguang.cn/jpush) for details.
 
 | Binding library | Native SDK | Nuget |
 |:-| :-: | :-: |
-|Chi.MauiBinding.Android.Jiguang.JCore| jcore-4.0.0.aar| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.Jiguang.JCore?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.Jiguang.JCore/ "Download Chi.MauiBinding.Android.Jiguang.JCore from NuGet.org") |
-|Chi.MauiBinding.Android.Jiguang.JPush| jpush-4.8.5.aar| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.Jiguang.JPush?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.Jiguang.JPush/ "Download Chi.MauiBinding.Android.Jiguang.JPush from NuGet.org") |
+|Chi.MauiBinding.Android.JiguangJCore| jcore-4.0.0.aar| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.JiguangJCore?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.JiguangJCore/ "Download Chi.MauiBinding.Android.JiguangJCore from NuGet.org") |
+|Chi.MauiBinding.Android.JiguangJPush| jpush-4.8.5.aar| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.JiguangJPush?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.JiguangJPush/ "Download Chi.MauiBinding.Android.JiguangJPush from NuGet.org") |
 
 ## iOS
 

@@ -6,9 +6,9 @@ See [Ezviz official document](https://open.ys7.com/cn/s/index).
 
 |Binding library | Native SDK | Nuget |
 |:-| :- | :-: |
-| MauiBinding.Android.Ezviz.SDK | [ezviz-sdk-4.20.1.1.aar](https://search.maven.org/artifact/io.github.ezviz-open/ezviz-sdk/4.20.1.1/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.Ezviz.SDK?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.Ezviz.SDK/ "Download Chi.MauiBinding.Android.Ezviz.SDK from NuGet.org") |
-| MauiBinding.Android.Ezviz.VideoTalk | [videotalk-1.2.6.aar](https://search.maven.org/artifact/io.github.ezviz-open/videotalk/1.2.6/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.Ezviz.VideoTalk?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.Ezviz.VideoTalk/ "Download Chi.MauiBinding.Android.Ezviz.VideoTalk from NuGet.org") |
-| MauiBinding.Android.Ezviz.StreamCtrl | [streamctrl-1.2.6.aar](https://search.maven.org/artifact/io.github.ezviz-open/streamctrl/1.2.6/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.Ezviz.StreamCtrl?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.Ezviz.StreamCtrl/ "Download Chi.MauiBinding.Android.Ezviz.StreamCtrl from NuGet.org") |
+| MauiBinding.Android.EzvizSDK | [ezviz-sdk-4.20.1.1.aar](https://search.maven.org/artifact/io.github.ezviz-open/ezviz-sdk/4.20.1.1/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.EzvizSDK?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.EzvizSDK/ "Download Chi.MauiBinding.Android.EzvizSDK from NuGet.org") |
+| MauiBinding.Android.EzvizVideoTalk | [videotalk-1.2.6.aar](https://search.maven.org/artifact/io.github.ezviz-open/videotalk/1.2.6/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.EzvizVideoTalk?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.EzvizVideoTalk/ "Download Chi.MauiBinding.Android.EzvizVideoTalk from NuGet.org") |
+| MauiBinding.Android.EzvizStreamCtrl | [streamctrl-1.2.6.aar](https://search.maven.org/artifact/io.github.ezviz-open/streamctrl/1.2.6/aar)| [![NuGet](https://buildstats.info/nuget/Chi.MauiBinding.Android.EzvizStreamCtrl?includePreReleases=false)](https://www.nuget.org/packages/Chi.MauiBinding.Android.EzvizStreamCtrl/ "Download Chi.MauiBinding.Android.EzvizStreamCtrl from NuGet.org") |
 
 ## iOS
 
