@@ -10,8 +10,8 @@
 	<PropertyGroup>
 		<Version>1.2.0</Version>
 		<Description>Maui binding library for AMap Lite3dMap_1.2.0_AMapSearch_9.2.0_AMapLocation_6.1.0_20220414.</Description>
-		<PackageId>$(PackageIdPrefix).Android.Lite</PackageId>
-		<Title>$(PackageIdPrefix).Android.Lite</Title>
+		<PackageId>$(PackageIdPrefix).Android.AMapLite</PackageId>
+		<Title>$(PackageIdPrefix).Android.AMapLite</Title>
 	</PropertyGroup>
 
 </Project>
