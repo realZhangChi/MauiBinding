@@ -11,6 +11,7 @@
 		<Description>Maui binding library for https://github.com/princekin-f/EasyFloat.</Description>
 		<PackageId>$(PackageIdPrefix).Android.EasyFloat</PackageId>
 		<Title>$(PackageIdPrefix).Android.EasyFloat</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

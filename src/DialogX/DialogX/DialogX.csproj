@@ -11,6 +11,7 @@
 		<Description>Maui binding library for https://github.com/kongzue/DialogX.</Description>
 		<PackageId>$(PackageIdPrefix).Android.DialogX</PackageId>
 		<Title>$(PackageIdPrefix).Android.DialogX</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

@@ -12,6 +12,7 @@
 		<Description>Maui binding library for BaiduMapSDK_Search.</Description>
 		<PackageId>$(PackageIdPrefix).Android.BaiduMap_Search</PackageId>
 		<Title>$(PackageIdPrefix).Android.BaiduMap_Search</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

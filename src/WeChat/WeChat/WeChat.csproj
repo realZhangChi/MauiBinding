@@ -12,6 +12,7 @@
 		<Description>Maui binding library for com.tencent.mm.opensdk.wechat-sdk-android.</Description>
 		<PackageId>$(PackageIdPrefix).Android.WeChat</PackageId>
 		<Title>$(PackageIdPrefix).Android.WeChat</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 

@@ -12,6 +12,7 @@
 		<Description>Maui binding library for AMapLocation_6.1.0_20220406.</Description>
 		<PackageId>$(PackageIdPrefix).Android.AMapLocation</PackageId>
 		<Title>$(PackageIdPrefix).Android.AMapLocation</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 </Project>

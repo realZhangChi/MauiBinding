@@ -12,6 +12,7 @@
 		<Description>Maui binding library for Urora(极光推送 https://www.jiguang.cn/sdk-download) JPush.</Description>
 		<PackageId>$(PackageIdPrefix).Android.JiguangJPush</PackageId>
 		<Title>$(PackageIdPrefix).Android.JiguangJPush</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

@@ -13,6 +13,7 @@
 		<Description>Maui binding library for AMap3DMap_9.4.0_AMapSearch_9.4.0_AMapLocation_6.1.0_20220808.</Description>
 		<PackageId>$(PackageIdPrefix).Android.AMap3D</PackageId>
 		<Title>$(PackageIdPrefix).Android.AMap3D</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 </Project>

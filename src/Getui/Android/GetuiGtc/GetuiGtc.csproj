@@ -12,6 +12,7 @@
 		<Description>Maui binding library for Getui gtc.</Description>
 		<PackageId>$(PackageIdPrefix).Android.GetuiGtc</PackageId>
 		<Title>$(PackageIdPrefix).Android.GetuiGtc</Title>
+		<AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>
