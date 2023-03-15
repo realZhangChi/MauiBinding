@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<Version>3.0.0</Version>
+		<Description>Maui binding library for https://github.com/burhanrashid52/PhotoEditor.</Description>
+		<PackageId>$(PackageIdPrefix).Android.PhotoEditor</PackageId>
+		<Title>$(PackageIdPrefix).Android.PhotoEditor</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="PhotoEditor.aar" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
+	  <PackageReference Include="Xamarin.AndroidX.Core.Core.Ktx" Version="1.9.0.2" />
+	  <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.8.10" />
+	  <PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.6.4.2" />
+	  <PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.6.4.2" />
+	</ItemGroup>
+
+</Project>

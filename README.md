@@ -11,6 +11,7 @@
 - [EasyFloat](https://github.com/realZhangChi/MauiBinding/tree/main/src/EasyFloat)
 - [Ezviz(萤石)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Ezviz)
 - [Getui(个推)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Getui)
+- [PhotoEditor](https://github.com/realZhangChi/MauiBinding/tree/main/src/PhotoEditor)
 - [Jiguang(极光)](https://github.com/realZhangChi/MauiBinding/tree/main/src/Jiguang)
 - [Toaster](https://github.com/realZhangChi/MauiBinding/tree/main/src/Toaster)
 - [WeChat](https://github.com/realZhangChi/MauiBinding/tree/main/src/WeChat)
