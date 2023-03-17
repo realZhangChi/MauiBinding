@@ -23,3 +23,9 @@ If you need my help creating a binding library, please [open an issue](https://g
 ## Support the MauiBinding
 
 Love MauiBinding? **Please give a star** to this repository. :star:
+
+## Special Thanks
+
+Thanks to **JetBrains** for allocating free open-source licences for IDEs for **MauiBinding**.
+
+[<img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo" width="200"/>](https://jb.gg/OpenSourceSupport)
