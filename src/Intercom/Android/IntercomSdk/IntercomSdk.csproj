@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>14.2.0</Version>
+    <Description>Maui binding library for Intercom Sdk.</Description>
+    <PackageId>$(PackageIdPrefix).Android.IntercomSdk</PackageId>
+    <Title>$(PackageIdPrefix).Android.IntercomSdk</Title>
+    <AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Firebase.Messaging" Version="123.1.1.1" />
+  </ItemGroup>
+</Project>
