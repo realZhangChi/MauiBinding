@@ -16,3 +16,6 @@
 /src/WeChat/**/*.aar
 /src/DialogX/**/*.aar
 /src/PhotoEditor/**/*.aar
+/src/Intercom/**/*.aar
+.idea/
+**/.DS_Store

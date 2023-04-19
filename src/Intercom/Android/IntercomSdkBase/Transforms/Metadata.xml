@@ -1,0 +1,41 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.actions')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.activities')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.annotations')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.api')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.blocks')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.conversation')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.exceptions')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.inbox')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.lightbox')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.logger')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.metrics')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.middleware')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.models')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.operator')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.overlay')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.persistence')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.spans')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.state')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.store')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.transforms')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.user')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.utilities')]" />
+  <remove-node path="/api/package[starts-with(@name, 'io.intercom.android.sdk.views')]" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.identity']/*[starts-with(@name, 'AppConfig')]" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.identity']/class[@name='AppIdentity']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk.identity']/class[@name='UserIdentity']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk']/class[@name='Injector']" />
+  <remove-node path="/api/package[@name='io.intercom.android.sdk']/class[starts-with(@name, 'IntercomPushManager')]" />
+  <remove-node path="//*[@deprecated='deprecated']" />
+  <attr path="/api/package[@name='io.intercom.android.sdk']" name="managedName">Xamarin.Android.Intercom</attr>
+  <attr path="/api/package[@name='io.intercom.android.sdk.identity']" name="managedName">Xamarin.Android.Intercom.Identity</attr>
+  <attr path="/api/package[@name='io.intercom.android.sdk.push']" name="managedName">Xamarin.Android.Intercom.Push</attr>
+</metadata>

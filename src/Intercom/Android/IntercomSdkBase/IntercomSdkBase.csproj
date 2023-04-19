@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Version>14.2.0</Version>
+    <Description>Maui binding library for Intercom Sdk Base.</Description>
+    <PackageId>$(PackageIdPrefix).Android.IntercomSdkBase</PackageId>
+    <Title>$(PackageIdPrefix).Android.IntercomSdkBase</Title>
+    <AssemblyName>$(PackageIdPrefix).Android.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+</Project>

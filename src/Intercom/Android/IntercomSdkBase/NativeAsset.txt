@@ -1,0 +1,2 @@
+https://repo1.maven.org/maven2/io/intercom/android/intercom-sdk-base/14.2.0/intercom-sdk-base-14.2.0.aar
+intercom-sdk-base.aar
