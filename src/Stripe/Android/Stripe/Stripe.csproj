@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Stripe.Payments.Core\Stripe.Payments.Core.csproj" />
+    </ItemGroup>
+</Project>

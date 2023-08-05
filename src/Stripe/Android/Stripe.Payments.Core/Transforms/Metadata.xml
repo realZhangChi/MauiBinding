@@ -1,0 +1,62 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'Stripe')]/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'GooglePay')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'ElementsSessionParams')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'Payment')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentConfiguration')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountConfiguration')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountContract')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountResult')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentFlowResult')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentLauncherContract')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentResult')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentSession')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'AddPayment')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'BecsDebitBanks')]/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'GooglePay')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'ElementsSessionParams')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentAuthConfig')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentConfiguration')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountConfiguration')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountContract')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'CollectBankAccountResult')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentFlowResult')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentLauncherContract')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentResult')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentSession')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'AddPayment')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'BecsDebitBanks')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentFlowActivityStarter')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'PaymentMethodsActivityStarter')]/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'GooglePayPaymentMethodLauncherContract')]/method[@name='createIntent' and count(parameter)=2]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='PaymentLauncherContract']/method[@name='createIntent' and count(parameter)=2]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='CollectBankAccountContract']/method[@name='createIntent' and count(parameter)=2]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='GooglePayLauncherContract']/method[@name='createIntent' and count(parameter)=2]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+
+
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'GooglePayPaymentMethodLauncherContract')]/method[@name='createIntent']" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='PaymentLauncherContract']/method[@name='createIntent']" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='CollectBankAccountContract']/method[@name='createIntent']" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='GooglePayLauncherContract']/method[@name='createIntent']" name="managedOverride">override</attr>
+
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'GooglePayPaymentMethodLauncherContract')]/method[@name='parseResult' ]" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='CollectBankAccountContract']/method[@name='parseResult']" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='PaymentLauncherContract']/method[@name='parseResult']" name="managedOverride">override</attr>
+	<attr path ="/api/package[starts-with(@name, 'com.stripe.android')]/class[@name='GooglePayLauncherContract']/method[@name='parseResult']" name="managedOverride">override</attr>
+
+	<attr path="/api/package[@name='com.stripe.android.view']/class[@name='AddPaymentMethodActivity']/method[@name='onActionSave' and count(parameter)=0]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.stripe.android.view']/class[@name='PaymentFlowActivity']/method[@name='onActionSave' and count(parameter)=0]" name="visibility">protected</attr>
+	
+	<attr path="/api/package[@name='com.stripe.android.view']/class[@name='CardFormView']/field[@name='CARD_FORM_VIEW']" name="managedName">CardFormView_</attr>
+</metadata>
