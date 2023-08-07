@@ -8,7 +8,4 @@
     <ItemGroup>
       <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.0.1" />
     </ItemGroup>
-    <ItemGroup>
-      <ProjectReference Include="..\Stripe.Payments.Core\Stripe.Payments.Core.csproj" />
-    </ItemGroup>
 </Project>
