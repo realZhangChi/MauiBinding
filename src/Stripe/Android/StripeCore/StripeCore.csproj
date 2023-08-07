@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="stripe-core-20.28.0.aar" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Xamarin.AndroidX.Browser" Version="1.5.0.3" />
+      <PackageReference Include="Xamarin.Google.Dagger" Version="2.46.1.2" />
+    </ItemGroup>
+</Project>

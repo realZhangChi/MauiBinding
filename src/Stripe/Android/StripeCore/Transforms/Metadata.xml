@@ -1,0 +1,37 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  
+  <attr path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='Country.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='CountryCode.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='StripeFile.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='StripeFileParams.FileLink.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ApiRequest.Options.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core']/class[@name='StripeError.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='Country.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='CountryCode.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='StripeFile.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.model']/class[@name='StripeFileParams.FileLink.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ApiRequest.Options.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.core']/class[@name='StripeError.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  
+  <attr path="/api/package[@name='com.stripe.android.core.injection']/class[@name='CoreCommonModule_ProvideLocaleFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.injection']/class[@name='CoreCommonModule_ProvideLoggerFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.injection']/class[@name='CoroutineContextModule_ProvideUIContextFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.injection']/class[@name='CoroutineContextModule_ProvideWorkContextFactory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ApiRequest_Options_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.networking']/class[@name='DefaultAnalyticsRequestExecutor_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.core.networking']/class[@name='RetryDelaySupplier_Factory']/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+  <remove-node path="/api/package[@name='com.stripe.android.core.networking']/interface[@name='ConnectionFactory']"/>
+  <remove-node path="/api/package[@name='com.stripe.android.core.networking']/class[@name='StripeConnection.AbstractConnection']"/>
+
+</metadata>

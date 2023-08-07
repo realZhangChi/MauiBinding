@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="payments-model-20.28.0.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StripeCore\StripeCore.csproj" />
+  </ItemGroup>
+</Project>
