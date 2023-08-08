@@ -12,5 +12,24 @@
 	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
 
 	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='createIntent' and count(parameter)=2]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='createIntent' and count(parameter)=2]" name="managedOverride">override</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='parseResult']" name="managedReturn">Java.Lang.Object?</attr>
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='parseResult']" name="managedOverride">override</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='get' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='withShouldUseStripeSdk' and count(parameter)=1 and parameter[1][@type='boolean']]" name="managedReturn">Com.Stripe.Android.Model.IConfirmStripeIntentParams</attr>
+
+
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData.SdkData.Use3DS2.DirectoryServerEncryption']/method[@name='copy' and count(parameter)=4 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.util.List&lt;java.lang.String&gt;'] and parameter[4][@type='java.lang.String']]"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData.SdkData.Use3DS2']/method[@name='getServerEncryption' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentIntent']"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='SetupIntent']"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData.SdkData.Use3DS2']/constructor[@name='StripeIntent.NextActionData.SdkData.Use3DS2' and count(parameter)=6 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.stripe.android.model.StripeIntent.NextActionData.SdkData.Use3DS2.DirectoryServerEncryption'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String']]"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData.SdkData.Use3DS2']/method[@name='component4' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData.SdkData.Use3DS2']/method[@name='copy' and count(parameter)=6 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String'] and parameter[4][@type='com.stripe.android.model.StripeIntent.NextActionData.SdkData.Use3DS2.DirectoryServerEncryption'] and parameter[5][@type='java.lang.String'] and parameter[6][@type='java.lang.String']]"/>
 </metadata>
 
