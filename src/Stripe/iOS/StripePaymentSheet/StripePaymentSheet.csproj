@@ -1,13 +1,38 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net8.0-ios</TargetFramework>
+        <TargetFramework>net7.0-ios</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>true</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
     </PropertyGroup>
 
     <ItemGroup>
-        <ObjcBindingApiDefinition Include="ApiDefinition.cs"/>
-        <ObjcBindingCoreSource Include="StructsAndEnums.cs"/>
+        <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+        <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\StripeCore.xcframework\ios-arm64\StripeCore.framework">
+        <Kind>Framework</Kind>
+      </NativeReference>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\StripeUICore.xcframework\ios-arm64\StripeUICore.framework">
+        <Kind>Framework</Kind>
+        <SmartLink>False</SmartLink>
+      </NativeReference>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\Stripe3DS2.xcframework\ios-arm64\Stripe3DS2.framework">
+        <Kind>Framework</Kind>
+        <SmartLink>False</SmartLink>
+      </NativeReference>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\StripeApplePay.xcframework\ios-arm64\StripeApplePay.framework">
+        <Kind>Framework</Kind>
+        <SmartLink>False</SmartLink>
+      </NativeReference>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\StripePayments.xcframework\ios-arm64\StripePayments.framework">
+        <Kind>Framework</Kind>
+        <SmartLink>False</SmartLink>
+      </NativeReference>
+      <NativeReference Include="..\..\..\..\..\..\Downloads\Stripe.xcframework\StripePaymentsUI.xcframework\ios-arm64\StripePaymentsUI.framework">
+        <Kind>Framework</Kind>
+        <SmartLink>False</SmartLink>
+      </NativeReference>
     </ItemGroup>
 </Project>
