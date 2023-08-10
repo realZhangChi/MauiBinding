@@ -109,6 +109,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeCore", "src\Stripe\iO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripePaymentSheet", "src\Stripe\iOS\StripePaymentSheet\StripePaymentSheet.csproj", "{E1F6457D-4E62-4B90-9DCC-973B18449A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "src\Stripe\iOS\Demo\Demo.csproj", "{3B5F9068-49C4-4E5C-A147-8CFCD9D66875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{E1F6457D-4E62-4B90-9DCC-973B18449A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F6457D-4E62-4B90-9DCC-973B18449A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F6457D-4E62-4B90-9DCC-973B18449A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5F9068-49C4-4E5C-A147-8CFCD9D66875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5F9068-49C4-4E5C-A147-8CFCD9D66875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5F9068-49C4-4E5C-A147-8CFCD9D66875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5F9068-49C4-4E5C-A147-8CFCD9D66875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +322,7 @@ Global
 		{C87ABC52-B8D7-4885-91C4-E7D3CB342098} = {78E2EE3C-D031-41F1-9701-4418364EB25D}
 		{F47BB4BD-378C-4ABC-9A2D-4DAC93C4BB19} = {C87ABC52-B8D7-4885-91C4-E7D3CB342098}
 		{E1F6457D-4E62-4B90-9DCC-973B18449A66} = {C87ABC52-B8D7-4885-91C4-E7D3CB342098}
+		{3B5F9068-49C4-4E5C-A147-8CFCD9D66875} = {C87ABC52-B8D7-4885-91C4-E7D3CB342098}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E6D9B10-AA5C-45F6-A8F2-3C896718F3A6}
