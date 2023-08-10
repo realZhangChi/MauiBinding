@@ -1,0 +1,21 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class[starts-with(@name, 'Stripe')]/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='createFromParcel']" name="managedReturn">Java.Lang.Object</attr>
+
+	<attr path="/api/package[starts-with(@name, 'com.stripe.android')]/class/method[@name='newArray']" name="managedReturn">Java.Lang.Object[]</attr>
+
+	<attr path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.stripe3ds2.views.ChallengeViewArgs']]/parameter[2]" name="managedType">Java.Lang.Object?</attr>
+	<attr path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.stripe3ds2.views.ChallengeViewArgs']]" name="managedOverride">override</attr>
+
+	<attr path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" name="managedReturn">Java.Lang.Object?</attr>
+	<attr path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" name="managedOverride">override</attr>
+</metadata>

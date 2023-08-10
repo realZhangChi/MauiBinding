@@ -1,0 +1,35 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  
+  <attr path="/api/package[@name='com.stripe.android.cards']/class[@name='Bin.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='BankAccount.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='Card.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.SessionState.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.SessionType.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSessionLookup.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='Token.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.stripe.android.cards']/class[@name='Bin.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='BankAccount.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='Card.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.SessionState.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSession.VerificationSession.SessionType.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSessionLookup.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  <attr path="/api/package[@name='com.stripe.android.model']/class[@name='Token.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+  
+  <attr path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='BankAccountJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='CardJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionLookupJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='TokenJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]" name="managedReturn">Java.Lang.Object</attr>
+</metadata>
