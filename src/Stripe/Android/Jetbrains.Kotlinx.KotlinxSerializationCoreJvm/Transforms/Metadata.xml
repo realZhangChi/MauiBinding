@@ -1,0 +1,19 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='kotlinx.serialization.builtins']/class[@name='LongAsStringSerializer']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.internal']/class[@name='AbstractCollectionSerializer']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.internal']/class[@name='AbstractPolymorphicSerializer']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization']/class[@name='PolymorphicSerializer']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.internal']/class[@name='NamedValueDecoder']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.encoding']/class[@name='AbstractDecoder']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.internal']/class[@name='MapLikeSerializer']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.encoding']/class[@name='AbstractEncoder']"/>
+  <remove-node path="/api/package[@name='kotlinx.serialization.internal']/class[@name='NamedValueEncoder']"/>
+  <attr path="/api/package[@name='kotlinx.serialization.internal']/class[@name='NamedValueEncoder']/method[@name='getTag' and count(parameter)=2 and parameter[1][@type='kotlinx.serialization.descriptors.SerialDescriptor'] and parameter[2][@type='int']]" name="managedReturn">Java.Lang.Object?</attr>
+</metadata>
